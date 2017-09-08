@@ -49,7 +49,7 @@ $(document).ready(function() {
 
     /* Magnific Popup */
     $('.grid-wrapper').magnificPopup({
-        delegate: 'a',
+        delegate: 'a.image-link',
         type: 'image',
         gallery: {
             enabled: true
@@ -91,7 +91,7 @@ $(document).ready(function() {
 
 
     /* VEGAS Home Slider */
-	
+
 	    $('#page-welcome').vegas({
         slides: [
             { src: 'img/slider/01.jpg' },

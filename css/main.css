@@ -155,10 +155,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 #grid .mix .overlay {
     width: 200px;
-    height: 150px;
+    height: 125px;
     position: absolute;
     opacity: 0;
-	top:0;
+	  top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #grid .mix .overlay:hover {
     opacity: .8;
@@ -167,8 +170,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2em;
     opacity: 1;
     color: #fff;
-    padding-top: 30%;
     margin: 5px;
+}
+#grid .mix .overlay i:hover {
+  color: #bdc3c7;
 }
 .isotope-item {
     z-index: 2;

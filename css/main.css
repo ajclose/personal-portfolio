@@ -394,7 +394,7 @@ label.valid {
    Charts
    ========================================================================== */
 .logo img {
-  width: 50%;
+  width: 100px;
 }
 .chart {
     position: relative;

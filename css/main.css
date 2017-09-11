@@ -394,7 +394,13 @@ label.valid {
    Charts
    ========================================================================== */
 .logo {
-  padding: 20px;
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
 }
 .chart {
     position: relative;

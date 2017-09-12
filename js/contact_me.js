@@ -21,8 +21,7 @@ $(function() {
                 url: "http://formspree.io/contact@alexjclose.com",
             	method: "POST",
             	data: {name: name, email: email, message: message},
-              datatype: "json",
-            	cache: false,
+              datatype: "json"
             	success: function() {
             	// Success message
             	   $('#success').html("<div class='alert alert-success'>");

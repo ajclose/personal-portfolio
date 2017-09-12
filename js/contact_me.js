@@ -24,7 +24,7 @@ $(function() {
           email: email,
           message: message
         },
-        datatype: "json",
+        dataType: "json",
         success: function() {
           // Success message
           $('#success').html("<div class='alert alert-success'>");

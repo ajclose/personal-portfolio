@@ -22,7 +22,6 @@ $(function() {
             	method: "POST",
             	data: {name: name, email: email, message: message},
               datatype: "json",
-            	cache: false,
             	success: function() {
             	// Success message
             	   $('#success').html("<div class='alert alert-success'>");

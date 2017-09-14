@@ -141,6 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 .center-pills {
     display: inline-block;
 }
+
 #grid .mix {
     width: 200px;
     height: 150px;
@@ -148,6 +149,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 20px 20px 20px 0;
     color: #fff;
     text-align: center;
+
 }
 #grid .mix .thumbnail {
     border: 2px thin #F7F7F7;
@@ -167,13 +169,11 @@ h1, h2, h3, h4, h5, h6 {
 #grid .mix .overlay:hover {
     opacity: .8;
 }
-#grid .mix .overlay i {
+#grid .mix i {
     font-size: 2em;
-    opacity: 1;
-    color: #fff;
     margin: 5px;
 }
-#grid .mix .overlay i:hover {
+#grid .mix i:hover {
   color: #bdc3c7;
 }
 .isotope-item {
@@ -214,6 +214,10 @@ h1, h2, h3, h4, h5, h6 {
     -ms-transition-duration: 0s;
     -o-transition-duration: 0s;
     transition-duration: 0s;
+}
+
+.description {
+  padding: 0 5px;
 }
 /* ==========================================================================
    Vegas slider

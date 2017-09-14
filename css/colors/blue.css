@@ -1,9 +1,9 @@
 /* Blue - #3498db */
 
 
-a:link,a:visited,.navbar-default .navbar-nav>li>a:hover, 
-.navbar-default .navbar-nav>li>a:focus,a:hover,a:active,.navbar-default .navbar-nav>.active>a, 
-.navbar-default .navbar-nav>.active>a:hover, 
+a:link,a:visited,.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,a:hover,a:active,.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus{
 	color:#3498db;
 }
@@ -26,9 +26,11 @@ background: #3498db;
 	color:#fff;
 }
 
+#page-contact .contact-info a{
+	color:#fff;
+}
+
 .btn.btn-default:hover,
 .btn.btn-default:active{
     color:#3498db;
 }
-
-

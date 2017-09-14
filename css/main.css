@@ -128,6 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 #page-contact .contact-info p {
     font-size: 1.2em;
 }
+
 /* ==========================================================================
    Portfolio
    ========================================================================== */
@@ -473,34 +474,17 @@ label.valid {
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
 }
-.btn-twitter:hover {
-    color: #2BA9E0;
-}
-.btn-facebook:hover {
-    color: #204385;
-}
-.btn-dribbble:hover {
-    color: #D92C85;
-}
-.btn-instagram:hover {
-    color: #BAB1A8;
-}
 .btn-linkedin:hover {
     color: #015786;
 }
-.btn-pinterest:hover {
-    color: #CA2128;
-}
-.btn-google:hover {
-    color: #D3492C;
-}
-
 .btn-github:hover {
-    color: #D3492C;
+    color: #6e5494;
 }
-
 .btn-wordpress:hover {
-    color: #D3492C;
+    color: #21759b;
+}
+.btn-file:hover {
+    color: gray;
 }
 /* ==========================================================================
    Helper classes

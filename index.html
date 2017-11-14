@@ -12,7 +12,7 @@
   <title>Alex Close</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="">
+  <meta name="author" content="Alex Close">
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
   <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
@@ -77,17 +77,17 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav" id="main-menu">
-          <li><a href="#page-welcome">Home</a>
+          <li class="nav-link"><a href="#page-welcome">Home</a>
           </li>
-          <li><a href="#page-profile">Profile</a>
+          <li class="nav-link"><a href="#page-profile">Profile</a>
           </li>
-          <li><a href="#page-skills">Skills</a>
+          <li class="nav-link"><a href="#page-skills">Skills</a>
           </li>
           <!-- <li><a href="#page-experience">Experience</a>
           </li> -->
-          <li><a href="#page-portfolio">Portfolio</a>
+          <li class="nav-link"><a href="#page-portfolio">Portfolio</a>
           </li>
-          <li><a href="#page-contact">Contact</a>
+          <li class="nav-link"><a href="#page-contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -320,11 +320,25 @@
 
         <div>
           <ul id="grid" class="grid-wrapper">
+            <li class="mix rails javascript html css">
+              <div class="overlay">
+                <p class="description">WODTracker is simple workout tracker for crossfit style workouts.  Includes a barbell weight calculator.  Responsive so you can use it at the gym!</p>
+              </div><img src="img/portfolio/small/wodtracker.png" alt="">
+              <a class="image-link" href="img/portfolio/large/wodtracker/wodtracker.png"><i class="fa fa-search"></i></a>
+              <a class="image-link" href="img/portfolio/large/wodtracker/home-screen.png"></a>
+              <a class="image-link" href="img/portfolio/large/wodtracker/show-workout.png"></a>
+              <a class="image-link" href="img/portfolio/large/wodtracker/tell-me-what-i-need.png"></a>
+              <a class="image-link" href="img/portfolio/large/wodtracker/tell-me-what-i-have.png"></a>
+              <a href="https://ajclose-wodtracker.herokuapp.com/login" target="_blank"><i class="fa fa-link"></i></a>
+              <a href="https://github.com/ajclose/workout-tracker" target="_blank"><i class="fa fa-github"></i></a>
+            </li>
             <li class="mix node javascript html css">
               <div class="overlay">
                 <p class="description">Gabble is a twitter-like social media app that allows users to post gabs and "like" other users' gabs.  Come see what everyone is talking about!</p>
               </div><img src="img/portfolio/small/gabble.png" alt="">
-              <a class="image-link" href="img/portfolio/large/gabble.png"><i class="fa fa-search"></i></a>
+              <a class="image-link" href="img/portfolio/large/gabble/gabble.png"><i class="fa fa-search"></i></a>
+              <a class="image-link" href="img/portfolio/large/gabble/view-gab.png"></a>
+              <a class="image-link" href="img/portfolio/large/gabble/profile.png"></a>
               <a href="https://ajclose-gabble.herokuapp.com/login" target="_blank"><i class="fa fa-link"></i></a>
               <a href="https://github.com/ajclose/gabble" target="_blank"><i class="fa fa-github"></i></a>
             </li>
@@ -348,7 +362,8 @@
               <div class="overlay">
                 <p class="description">Mystery Word is a hangman-like game with 3 difficulties.  Guess the word to get your name on the leaderboard!</p>
               </div><img src="img/portfolio/small/mystery-word-game.png" alt="">
-              <a class="image-link" href="img/portfolio/large/mystery-word-game.png"><i class="fa fa-search"></i></a>
+              <a class="image-link" href="img/portfolio/large/mystery-word/mystery-word-game.png"><i class="fa fa-search"></i></a>
+              <a class="image-link" href="img/portfolio/large/mystery-word/leaderboard.png"></a>
               <a href="https://ajclose-mystery-word-game.herokuapp.com/" target="_blank"><i class="fa fa-link"></i></a>
               <a href="https://github.com/ajclose/week-five-project" target="_blank"><i class="fa fa-github"></i></a>
             </li>
@@ -360,19 +375,20 @@
               <a href="https://ajclose.github.io/week-three-project/" target="_blank"><i class="fa fa-link"></i></a>
               <a href="https://github.com/ajclose/week-three-project" target="_blank"><i class="fa fa-github"></i></a>
             </li>
-            <li class="mix node javascript html css">
+            <!-- <li class="mix node javascript html css">
               <div class="overlay">
                 <p class="description">Code Snippets is a place to store and categorize all your favorite code.  Ability to view all snippets of a certain language or tag.</p>
               </div><img src="img/portfolio/small/code-snippets.png" alt="">
               <a class="image-link" href="img/portfolio/large/code-snippets.png"><i class="fa fa-search"></i></a>
               <a href="https://ajclose-code-snippets.herokuapp.com/login" target="_blank"><i class="fa fa-link"></i></a>
               <a href="https://github.com/ajclose/code-snippet" target="_blank"><i class="fa fa-github"></i></a>
-            </li>
+            </li> -->
             <li class="mix rails html css">
               <div class="overlay">
                 <p class="description">Recipe Box is a site that allows any user to add their favorite recipes!  What's for dinner?</p>
               </div><img src="img/portfolio/small/recipe-box.png" alt="">
-              <a class="image-link" href="img/portfolio/large/recipe-box.png"><i class="fa fa-search"></i></a>
+              <a class="image-link" href="img/portfolio/large/recipe-box/recipe-box.png"><i class="fa fa-search"></i></a>
+              <a class="image-link" href="img/portfolio/large/recipe-box/show-recipe.png"></a>
               <a href="https://ajclose-recipe-box.herokuapp.com/" target="_blank"><i class="fa fa-link"></i></a>
               <a href="https://github.com/ajclose/recipe-box" target="_blank"><i class="fa fa-github"></i></a>
             </li>
@@ -388,7 +404,12 @@
               <div class="overlay">
                 <p class="description">A mockup for a film club website.  Site is responsive for tablets and phones.</p>
               </div><img src="img/portfolio/small/film-club.png" alt="">
-              <a class="image-link" href="img/portfolio/large/film-club.png"><i class="fa fa-search"></i></a>
+              <a class="image-link" href="img/portfolio/large/film-club/film-club.png"><i class="fa fa-search"></i></a>
+              <a class="image-link" href="img/portfolio/large/film-club/home-mobile.png"></a>
+              <a class="image-link" href="img/portfolio/large/film-club/calendar.png"></a>
+              <a class="image-link" href="img/portfolio/large/film-club/calendar-mobile.png"></a>
+              <a class="image-link" href="img/portfolio/large/film-club/join.png"></a>
+              <a class="image-link" href="img/portfolio/large/film-club/join-mobile.png"></a>
               <a href="https://ajclose.github.io/week-two-project/" target="_blank"><i class="fa fa-link"></i></a>
               <a href="https://github.com/ajclose/week-two-project" target="_blank"><i class="fa fa-github"></i></a>
             </li>
@@ -396,7 +417,9 @@
               <div class="overlay">
                 <p class="description">A mockup for a ceramic studio website.  This site is not responsive.</p>
               </div><img src="img/portfolio/small/bent-creek.png" alt="">
-              <a class="image-link" href="img/portfolio/large/bent-creek.png"><i class="fa fa-search"></i></a>
+              <a class="image-link" href="img/portfolio/large/bent-creek/bent-creek.png"><i class="fa fa-search"></i></a>
+              <a class="image-link" href="img/portfolio/large/bent-creek/about.png"></a>
+              <a class="image-link" href="img/portfolio/large/bent-creek/newsletter.png"></a>
               <a href="https://ajclose.github.io/week-one-project---Bent-Creek-Ceramics/" target="_blank"><i class="fa fa-link"></i></a>
               <a href="https://github.com/ajclose/week-one-project---Bent-Creek-Ceramics" target="_blank"><i class="fa fa-github"></i></a>
             </li>
